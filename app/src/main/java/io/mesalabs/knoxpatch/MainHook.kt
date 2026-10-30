@@ -72,7 +72,7 @@ object MainHook : IYukiHookXposedInit {
                 YLog.error(msg = "$TAG: onHook: unknown SEP version: $sepVersion")
                 return@encase
             }
-            sepVersion > Constants.ONEUI_8_5 -> {
+            sepVersion > Constants.ONEUI_9_5 -> {
                 val oneUiVersion: String = BuildUtils.getFormattedOneUIVersion()
                 YLog.error(msg = "$TAG: onHook: One UI $oneUiVersion is not yet supported.")
                 return@encase
