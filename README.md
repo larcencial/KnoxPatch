@@ -1,6 +1,17 @@
 <p align="center">
+  <img src="readme-res/kp-readme-header.png" width="80%" alt="KnoxPatch Header" />
+</p>
 
-  ## Supported Android versions
+# KnoxPatch (One UI 9 Support Fork)
+
+An [Xposed / LSPosed / Vector](https://github.com/JingMatrix/LSPosed) module to get Samsung Knox-dependent apps and features working again on rooted Samsung Galaxy devices with a tripped Knox warranty bit (`0x1`).
+
+> [!NOTE]
+> **One UI 9 Compatibility**: This fork adds active support for **One UI 9.x (Android 17, SEP 180000)** on devices like the Galaxy S23 Ultra and newer, removing the artificial version ceiling present in the upstream release.
+
+---
+
+## 📱 Supported Android & One UI Versions
 - Android 9 (One UI 1.x)
 - Android 10 (One UI 2.x)
 - Android 11 (One UI 3.x)
@@ -10,9 +21,11 @@
 - Android 14 (One UI 6.x)
 - Android 15 (One UI 7.x)
 - Android 16 (One UI 8.x)
-- Android 17 (One UI 9.x)
+- **Android 17 (One UI 9.x)** *(Supported in this fork)*
 
-## Supported apps
+---
+
+## ✅ Supported Apps
 - ✅ [Auto Blocker](https://www.samsung.com/uk/support/mobile-devices/protect-your-galaxy-device-with-the-new-auto-blocker-feature/)
 - ➖ [Galaxy Wearable (Gear Manager)](https://www.samsung.com/us/support/owners/app/galaxy-wearable-watch) ([Enhancer](#knoxpatch-enhancer) required)
 - ✅ Samsung Cloud ([FMM](https://www.samsung.com/uk/support/mobile-devices/what-is-find-my-mobile-and-how-can-i-use-it-to-locate-lock-or-wipe-my-device/), [Enhanced data protection](https://www.samsung.com/ae/support/mobile-devices/what-is-the-enhanced-data-protection-function-and-when-can-i-use-it/))
@@ -30,45 +43,41 @@
 
 \* Devices running One UI 5.1 or lower might need [PIF](https://github.com/chiteroman/PlayIntegrityFix/releases/latest) or similar for this feature to work correctly since the integration in Quick Share. 
 
-## KnoxPatch Enhancer
+---
 
-KnoxPatch Enhancer is a flashable zip that will take care of the (currently) non-fixable apps/features via the Xposed API's. There are two different install modes:
+## ⚡ Installation Guide
 
-- Via the [Magisk](https://github.com/topjohnwu/Magisk)/[KernelSU](https://github.com/tiann/KernelSU) app (fix Galaxy Wearable apps/Smart View):
+1. **Install KnoxPatch APK:**  
+   Download `KnoxPatch-v0.8.3-OneUI9.apk` from the [Releases](https://github.com/larcencial/KnoxPatch/releases) section and install it.
+2. **Enable in LSPosed / Vector:**  
+   Open LSPosed (or Vector), go to the **Modules** tab, enable **KnoxPatch**, and ensure **System Framework** and target Samsung apps are checked.
+3. **Install KnoxPatch Enhancer (Recommended):**  
+   Flash `KnoxPatch-Enhancer-v0.4.zip` in **KernelSU / Magisk** to fix Galaxy Wearable, Smart View, and additional WSM security layers.
+4. **Reboot:**  
+   Restart your device and enjoy Knox-dependent apps.
 
-  Download the module zip from the [latest release](https://github.com/salvogiangri/KnoxPatch/releases/latest) and install it from the "Modules" tab inside the Magisk/KernelSU app. The app will then show an "Enhanced" badge if the module is installed and active:
+---
+
+## 🔧 KnoxPatch Enhancer
+
+KnoxPatch Enhancer is a flashable zip that will take care of the (currently) non-fixable apps/features via the Xposed APIs.
+
+- **Via the [Magisk](https://github.com/topjohnwu/Magisk) / [KernelSU](https://github.com/tiann/KernelSU) app (Fix Galaxy Wearable apps / Smart View):**  
+  Download the module zip from [Releases](https://github.com/larcencial/KnoxPatch/releases) and install it from the "Modules" tab. The app will then show an "Enhanced" badge once active:
 
 <p align="center">
-  <img loading="lazy" src="readme-res/kp-enhancer.png" width="35%" />
+  <img loading="lazy" src="readme-res/kp-enhancer.png" width="35%" alt="KnoxPatch Enhancer Badge" />
 </p>
 
-- Via a custom recovery (fix Secure Folder on legacy devices):
+---
 
-  Legacy devices running One UI 2.x or 3.x with [FBE](https://source.android.com/docs/security/features/encryption/file-based) require additional patches in the system partition to fix Secure Folder. Download the module zip from the [latest release](https://github.com/salvogiangri/KnoxPatch/releases/latest) and install it via a custom recovery, this will apply the necessary patches to fix Secure Folder. The zip will also create a backup of your original system files, flashing it again will restore them.
-
-## Credits
+## 📜 Credits
+- [salvogiangri](https://github.com/salvogiangri) (Original KnoxPatch creator)
+- [larcencial](https://github.com/larcencial) (One UI 9 maintenance & compatibility)
 - Samsung
 - [JingMatrix](https://github.com/JingMatrix)
 - [YukiHookAPI](https://github.com/fankes/YukiHookAPI)
 - [Rikka](https://github.com/RikkaApps)
-- [salvogiangri](https://github.com/salvogiangri)
 
-## Copyright
-```
-/*
- * Copyright (C) 2022 Salvo Giangreco
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
-```
+## 📄 License
+GNU General Public License v3.0 - see [LICENSE](LICENSE) for details.
