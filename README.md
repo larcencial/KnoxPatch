@@ -7,7 +7,7 @@
 An [Xposed / LSPosed / Vector](https://github.com/JingMatrix/LSPosed) module to get Samsung Knox-dependent apps and features working again on rooted Samsung Galaxy devices with a tripped Knox warranty bit (`0x1`).
 
 > [!NOTE]
-> **One UI 9 Compatibility**: This fork adds active support for **One UI 9.x (Android 17, SEP 180000)** on devices like the Galaxy S23 Ultra and newer, removing the artificial version ceiling present in the upstream release.
+> **One UI 9 Compatibility**: This fork adds active support for **One UI 9.x (Android 17, SEP 180000)** devices.
 
 ---
 
