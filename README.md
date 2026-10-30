@@ -48,7 +48,7 @@ An [Xposed / LSPosed / Vector](https://github.com/JingMatrix/LSPosed) module to 
 ## ⚡ Installation Guide
 
 1. **Install KnoxPatch APK:**  
-   Download `KnoxPatch-v0.8.3-OneUI9.apk` from the [Releases](https://github.com/larcencial/KnoxPatch/releases) section and install it.
+   Download `KnoxPatch-v0.8.4-OneUI9.apk` from the [Releases](https://github.com/larcencial/KnoxPatch/releases) section and install it.
 2. **Enable in LSPosed / Vector:**  
    Open LSPosed (or Vector), go to the **Modules** tab, enable **KnoxPatch**, and ensure **System Framework** and target Samsung apps are checked.
 3. **Install KnoxPatch Enhancer (Recommended):**  
