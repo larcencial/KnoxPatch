@@ -1,23 +1,6 @@
 <p align="center">
-  <img loading="lazy" src="readme-res/kp-readme-header.png" width="75%"/>
-  <br>
-  <a href="https://apt.izzysoft.de/fdroid/index/apk/io.mesalabs.knoxpatch"><img loading="lazy" src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png" width="170"/></a>
-  <br>
-  <a href="https://github.com/salvogiangri/KnoxPatch/releases/latest"><img loading="lazy" src="https://img.shields.io/github/v/release/salvogiangri/KnoxPatch?style=flat-square"/></a>
-  <img loading="lazy" src="https://img.shields.io/github/repo-size/salvogiangri/KnoxPatch?style=flat-square"/>
-  <a href="https://tooomm.github.io/github-release-stats/?username=salvogiangri&repository=KnoxPatch"><img loading="lazy" src="https://img.shields.io/github/downloads/salvogiangri/KnoxPatch/total?style=flat-square"/></a>
-  <a href="https://github.com/salvogiangri/KnoxPatch/commits/main"><img loading="lazy" src="https://img.shields.io/github/last-commit/salvogiangri/KnoxPatch/main?style=flat-square"/></a>
-  <a href="https://github.com/salvogiangri/KnoxPatch/stargazers"><img loading="lazy" src="https://img.shields.io/github/stars/salvogiangri/KnoxPatch?style=flat-square"/></a>
-  <a href="https://github.com/salvogiangri/KnoxPatch/graphs/contributors"><img loading="lazy" src="https://img.shields.io/github/contributors/salvogiangri/KnoxPatch?style=flat-square"/></a>
-  <a href="https://github.com/salvogiangri/KnoxPatch/actions"><img loading="lazy" src="https://img.shields.io/github/actions/workflow/status/salvogiangri/KnoxPatch/android.yml?style=flat-square"/></a>
-  <br><br>
-  An <a href="https://github.com/LSPosed/LSPosed">LSPosed</a> module to get Samsung apps/features working again in your rooted Galaxy device.
-  <br><br>
-  Any form of contribution, suggestions, bug report or feature request for the project will be welcome.
-  <br>
-</p>
 
-## Supported Android versions
+  ## Supported Android versions
 - Android 9 (One UI 1.x)
 - Android 10 (One UI 2.x)
 - Android 11 (One UI 3.x)
@@ -27,6 +10,7 @@
 - Android 14 (One UI 6.x)
 - Android 15 (One UI 7.x)
 - Android 16 (One UI 8.x)
+- Android 17 (One UI 9.x)
 
 ## Supported apps
 - ✅ [Auto Blocker](https://www.samsung.com/uk/support/mobile-devices/protect-your-galaxy-device-with-the-new-auto-blocker-feature/)
