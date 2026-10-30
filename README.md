@@ -48,9 +48,10 @@ KnoxPatch Enhancer is a flashable zip that will take care of the (currently) non
 
 ## Credits
 - Samsung
-- [LSPosed Team](https://github.com/LSPosed)
+- [JingMatrix](https://github.com/JingMatrix)
 - [YukiHookAPI](https://github.com/fankes/YukiHookAPI)
 - [Rikka](https://github.com/RikkaApps)
+- [salvogiangri](https://github.com/salvogiangri)
 
 ## Copyright
 ```
